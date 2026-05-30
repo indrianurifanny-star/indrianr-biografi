@@ -12,6 +12,8 @@ align-items:center;
 font-size:24px;
 cursor:pointer;
 box-shadow:0 4px 15px rgba(192,132,252,0.2);
+
+z-index:9999;
 }
 
 h1{
