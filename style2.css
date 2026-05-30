@@ -4,18 +4,16 @@ bottom:20px;
 right:20px;
 width:55px;
 height:55px;
-background:linear-gradient(135deg,#ffd7ea,#d9c8ff);
+background:#ffd7ea;
 border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
 font-size:24px;
 cursor:pointer;
-box-shadow:0 4px 15px rgba(192,132,252,0.2);
-
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
 z-index:9999;
 }
-
 h1{
 text-align:center;
 color:#6c5ce7;
