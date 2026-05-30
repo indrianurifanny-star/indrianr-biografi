@@ -8,9 +8,16 @@
 <link rel="stylesheet" href="style1.css">
 <link rel="stylesheet" href="style2.css">
 </head>
-
 <body>
 
+<div class="sparkle s1"></div>
+<div class="sparkle s2"></div>
+<div class="sparkle s3"></div>
+<div class="sparkle s4"></div>
+<div class="sparkle s5"></div>
+<div class="decor7"></div>
+<div class="decor8">♡</div>
+<div class="decor9">✿</div>
 
 <audio id="bgMusic" autoplay loop>
 <source src="lagu.mp3" type="audio/mpeg">
@@ -252,14 +259,12 @@ const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
 const backHomeLinks = document.querySelectorAll(".back-home");
 
-// fungsi tampilkan 1 section saja
 function showSection(id){
     sections.forEach(sec => {
         sec.style.display = (sec.id === id) ? "block" : "none";
     });
 }
 
-// klik navbar
 navLinks.forEach(link => {
     link.addEventListener("click", function(e){
         e.preventDefault();
@@ -268,7 +273,6 @@ navLinks.forEach(link => {
     });
 });
 
-// klik back home
 backHomeLinks.forEach(btn => {
     btn.addEventListener("click", function(e){
         e.preventDefault();
@@ -276,11 +280,9 @@ backHomeLinks.forEach(btn => {
     });
 });
 
-// default hanya HOME tampil
 window.addEventListener("load", function(){
     showSection("home");
 });
 </script>
-
 </body>
 </html>

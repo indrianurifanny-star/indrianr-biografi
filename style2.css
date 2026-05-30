@@ -4,14 +4,14 @@ bottom:20px;
 right:20px;
 width:55px;
 height:55px;
-background:#ffd7ea;
+background:linear-gradient(135deg,#ffd7ea,#d9c8ff);
 border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
 font-size:24px;
 cursor:pointer;
-box-shadow:0 4px 15px rgba(0,0,0,0.15);
+box-shadow:0 4px 15px rgba(192,132,252,0.2);
 }
 
 h1{
@@ -33,7 +33,7 @@ margin:5px;
 }
 
 nav ul li a:hover{
-background:#bae6fd;
+background:linear-gradient(135deg,#ddd6fe,#fbcfe8);
 }
 
 @media(max-width:768px){
@@ -60,3 +60,12 @@ max-width:200px;
 max-width:100%;
 }
 
+nav{
+width:95%;
+padding:10px;
+}
+
+nav a{
+font-size:12px;
+padding:8px 10px;
+}
